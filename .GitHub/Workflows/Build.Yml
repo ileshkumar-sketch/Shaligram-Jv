@@ -1,0 +1,1 @@
+--- name: Android CI on: push branches main workflow_dispatch jobs build runs-on ubuntu-latest steps: checkout, setup java version seventeen temurin, chmod plus x gradlew, phir ./gradlew assembleDebug
